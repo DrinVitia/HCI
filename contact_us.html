@@ -1,114 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Contact Us</title>
-  <style>
-    .contact-form {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-    .contact-form h2 {
-      margin-top: 0;
-      margin-bottom: 20px;
-      font-size: 24px;
-      width: 100%;
-    }
-    .contact-form .form-group {
-      width: 48%;
-    }
-    .contact-form .form-group.full-width {
-      width: 100%;
-    }
-    .contact-form label {
-      display: block;
-      margin-bottom: 5px;
-    }
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-      font-size: 18px;
-    }
-    .contact-form textarea {
-      resize: vertical;
-    }
-    .contact-form button {
-      font-size: 18px;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .contact-form button:hover {
-      background-color: #0069d9;
-    }
-    #map {
-      width: 48%;
-      height: 400px;
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <form class="contact-form">
-    <h2>Contact Us</h2>
-    <div class="form-group">
-      <label for="name">Name *</label>
-      <input type="text" id="name" name="name" required>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <!-- <link rel="stylesheet" href="./contactus_main.css" /> -->
+    <link rel="stylesheet" href="./contactus.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-us">
+      <div class="contact-us-child"></div>
+      <div class="contact-us-inner">
+        <div class="frame-wrapper">
+          <div class="frame-wrapper">
+            <div class="enim-tempor-eget">
+              Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
+              leo molestie vel, ornare non id blandit netus.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="get-in-touch-container">
+        <span>Get in </span>
+        <span class="touch">touch</span>
+        <span> </span>
+      </div>
+      <div class="text-fields">
+        <div class="input">
+          <div class="container">
+            <div class="text-field">
+              <div class="label-text">Contact name</div>
+              <div class="text-field-child"></div>
+            </div>
+          </div>
+        </div>
+        <div class="input1">
+          <div class="container">
+            <div class="text-field">
+              <div class="label-text">Street</div>
+              <div class="text-field-child"></div>
+            </div>
+          </div>
+        </div>
+        <div class="adress-inputes">
+          <div class="outlined-text-field">
+            <div class="container2">
+              <div class="text-field">
+                <div class="label-text2">City</div>
+                <div class="text-field-medium-child"></div>
+              </div>
+              <div class="helper-text-optional">Please, enter your address</div>
+            </div>
+          </div>
+          <div class="outlined-text-field">
+            <div class="container3">
+              <div class="text-field">
+                <div class="label-text3">Postcode</div>
+                <div class="text-field-short-child"></div>
+              </div>
+              <div class="helper-text-optional1">Please, enter postcode</div>
+            </div>
+          </div>
+        </div>
+        <div class="input2">
+          <div class="container">
+            <div class="text-field">
+              <div class="label-text">Contact Phone</div>
+              <div class="text-field-child"></div>
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <div class="container">
+            <div class="text-field">
+              <div class="label-text">E-mail</div>
+              <div class="text-field-child"></div>
+            </div>
+          </div>
+        </div>
+        <div class="input4">
+          <div class="container">
+            <div class="text-field">
+              <div class="label-text">Let’s talk about your idea</div>
+              <div class="text-field-child"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <b class="text">Submit</b>
+      </div>
+      <div class="contact-us-item"></div>
+      <img class="image-1-icon" alt="" src="./map.png" />
+
+      <div class="headquarters-company-s-container">
+        <p class="headquarters">Headquarters</p>
+        <p class="company-s-r-o">
+          <span class="span">
+            <b>Company s. r. o.</b>
+          </span>
+        </p>
+        <p class="company-s-r-o">
+          <span class="span">
+            <span>Street. 51</span>
+          </span>
+        </p>
+        <p class="company-s-r-o">
+          <span class="span">
+            <span>100 00 </span>
+          </span>
+        </p>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="email">Email *</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div class="form-group">
-      <label for="phone">Phone</label>
-      <input type="tel" id="phone" name="phone">
-    </div>
-    <div class="form-group full-width">
-      <label for="message">Message *</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
-    <div class="form-group">
-      <label for="address">Address *</label>
-      <input type="text" id="address" name="address" required>
-    </div>
-    <div class="form-group">
-      <label for="city">City *</label>
-      <input type="text" id="city" name="city" required>
-    </div>
-    <div class="form-group">
-      <label for="state">State *</label>
-      <input type="text" id="state" name="state" required>
-    </div>
-    <div class="form-group">
-      <label for="zip">Zip Code *</label>
-      <input type="text" id="zip" name="zip" required>
-    </div>
-    <button type="submit">Send Message</button>
-    <div id="map"></div>
-  </form>
-  <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of the office
-      var office = {lat: 37.7749, lng: -122.4194};
-      // The map, centered at the office
-      var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 12, center: office});
-      // The marker, positioned at the office
-      var marker = new google.maps.Marker({position: office, map: map, icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'});
-    }
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-  async defer></script>
-</body>
+  </body>
 </html>
