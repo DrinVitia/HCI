@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Jolly+Lodger&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inder&display=swap" rel="stylesheet" />
+  <!-- <link href="./main.css" rel="stylesheet" /> -->
+  <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    /* Navbar */
+.navbar {
+  background-color: #58614D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar li {
+  margin: 0 10px;
+  padding: 0%;
+}
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover {
+    color: #D3DDD6;
+}
+.navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 90px;
+  display: inline-block;
+}
+
+.navbar .logo {
+  font-family: 'Jolly Lodger', cursive;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 0 10;
+}
+    
+    .navbar .login-button {
+      border-radius: 40px;
+      background-color: #FFFFFF;
+      padding: 10px 40px;
+      color: #58614D;
+      font-family: 'Manrope', sans-serif;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: auto;
+    }
+    
+    /* Main content */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    
+    .container img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      margin-top: -50px;
+    }
+    
+    .container .get-started {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    
+    .container input[type="email"] {
+      padding: 10px;
+      font-family: 'Manrope', sans-serif;
+      font-size: 16px;
+    
+    }
+    
+    .container .submit-button {
+      padding: 13px 20px;
+      background-color: #58614D;
+      color: #FFFFFF;
+      border: none;
+      font-family: 'Manrope', sans-serif;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Card */
+    .card-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .card {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card__image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #58614D;
+      height: 170px;
+    }
+
+    .card__image h1 {
+      font-family: 'Jolly Lodger', cursive;
+      font-size: 50px;
+      color: #FFFFFF;
+      margin: 0;
+    }
+
+    .card__content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background-color: #D3DDD6;
+    }
+
+    .card__title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card__text {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .card__button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #58614D;
+      color: #FFF;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1 class="logo">Guru</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="/Courses.html">Courses</a></li>
+      <li><a href="/About_Us.html">About Us</a></li>
+      <li><a href="/contact_us.html">Contact Us</a></li>
+    </ul>
+    <a href="/login.html" class="login-button">Login</a>
+  </div>
+
+  <div class="container">
+    <img src="https://www.goethe.de/resources/files/jpg1125/sprachen-formatkey-jpg-w1920.jpg" alt="Image">
+    <div class="get-started">
+      <input type="email" placeholder="Get Started Now">
+      <button class="submit-button">Submit</button>
+    </div>
+  </div>
+
+  <div class="card-wrapper">
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">English</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">Albanian</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">German</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">French</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">Japanese</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">Italian</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">Russian</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card__image">
+        <h1 class="logo">Guru</h1>
+      </div>
+      <div class="card__content">
+        <p class="card__title">Spanish</p>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="card__button" href="#">Continue</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
