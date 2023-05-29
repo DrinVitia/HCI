@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+}
+.navbar {
+  background-color: #58614D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  justify-content: center;
+  /* align-items: center; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  /* display: inline; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 35%;
+  
+}
+
+.navbar li {
+  /* margin: 0 10px; */
+  padding: 0%;
+}
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover {
+    color: #D3DDD6;
+}
+.navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 15px;
+  display: inline-block;
+}
+
+.navbar .logo {
+  font-family: 'Jolly Lodger', cursive;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 0 10;
+}
+    
+    .navbar .login-button {
+      border-radius: 40px;
+      background-color: #FFFFFF;
+      padding: 10px 40px;
+      color: #58614D;
+      font-family: 'Manrope', sans-serif;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: auto;
+    }
+
+.content_container {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content_header {
+  align-items: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.content_header h2 {
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #58614d;
+}
+.content_header img {
+  width: 30%;
+}
+.language_image {
+  transform: rotate(-30deg);
+}
+.greeting_image {
+  transform: rotate(30deg);
+}
+.language_container {
+  display: grid;
+  width: 100%;
+  padding-top: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 700px;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  background: rgba(124, 132, 113, 1);
+  opacity: 1;
+  border-radius: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #313d5a;
+}
+.language img{
+  width: 50px;
+  margin:20px;
+}
+@media  (max-width: 900px) {
+  .content_header h2 {
+    font-size: 40px;
+  }
+  /* .language_container {
+    grid-template-columns: repeat(1, 1fr);
+} */
+}
