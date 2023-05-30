@@ -10,25 +10,25 @@
   .services {
     position: absolute;
     top: 74px;
-    left: 55%;
+    left: 52%;
   }
   .services {
-    left: 45%;
+    left: 40%;
   }
   .contact,
   .home,
   .wwwgurucom-all {
     position: absolute;
     top: 74px;
-    left: 60%;
+    left: 57%;
   }
   .home,
   .wwwgurucom-all {
-    left: 50%;
+    left: 47%;
   }
   .wwwgurucom-all {
     top: 112px;
-    left: 42%;
+    left: 35%;
     display: inline-block;
     width: 926px;
     height: 52px;
@@ -36,7 +36,7 @@
   .facebook-negative {
     position: absolute;
     top: 29px;
-    left: 55.50%;
+    left: 52.50%;
     width: 36px;
     height: 36px;
     overflow: hidden;
@@ -44,12 +44,12 @@
   .instagram-negative,
   .twitter-negative {
     position: absolute;
-    height: 21.66%;
-    width: 2.64%;
+    height: 23.66%;
+    width: 3.64%;
     top: 19.51%;
     right: 55.12%;
-    bottom: 58.82%;
-    left: 60.50%;
+    bottom: 60.82%;
+    left: 57.75%;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -58,12 +58,12 @@
     top: 17.68%;
     right: 47.17%;
     bottom: 60.65%;
-    left: 50.19%;
+    left: 47.75%;
   }
   .linkedin-negative {
     position: absolute;
     top: 29px;
-    left: 46%;
+    left: 41.75%;
     width: 36px;
     height: 36px;
     overflow: hidden;
