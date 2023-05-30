@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login Form</title>
+  <title>Sign Up Form</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     body {
@@ -13,8 +13,6 @@
       max-width: 400px;
       margin: 0 auto;
       padding: 90px;
-      height: 550px;
-      height: 550px;
       background-color: #fff;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +25,7 @@
     .form-group label {
       display: block;
       font-weight: bold;
-      margin-bottom: 25px;
+      margin-bottom: 5px;
     }
     
     .form-group input {
@@ -39,8 +37,8 @@
     }
     
     .btn {
-      display: inline-block;
-      padding: 12px 47%;
+      display: flex;
+      padding: 12px 45%;
       background-color: #007bff;
       color: #fff;
       text-decoration: none;
@@ -67,7 +65,7 @@
     .remember-me label {
         margin-bottom: 0;
         width: 100%;
-        padding-right: 102px;
+        padding-right: 105px;
     }
     
     .sign-up {
@@ -104,24 +102,32 @@
 </head>
 <body>
   <div class="container">
-    <h2>Login</h2>
+    <h2>Sign Up</h2>
     <form>
       <div class="form-group">
         <label for="username"><i class="fas fa-user"></i> Username:</label>
         <input type="text" id="username" name="username" placeholder="Enter your username">
       </div>
       <div class="form-group">
+        <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="confirm-email"><i class="fas fa-envelope"></i> Confirm Email:</label>
+        <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your email">
+      </div>
+      <div class="form-group">
         <label for="password"><i class="fas fa-lock"></i> Password:</label>
         <input type="password" id="password" name="password" placeholder="Enter your password">
       </div>
-      <div class="form-group remember-me">
-        <input type="checkbox" id="remember-me" name="remember-me">
-        <label for="remember-me">Keep me signed in</label>
+      <div class="form-group">
+        <label for="confirm-password"><i class="fas fa-lock"></i> Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password">
       </div>
-      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn">Register</button>
       <div class="form-footer">
         <div class="sign-up">
-          Don't have an account? <a href="/signup.html">Sign up</a>
+          Already have an account? <a href="login.html">Log in</a>
         </div>
         <div class="social-icons">
           <a href="#"><i class="fab fa-google"></i> Google</a>
