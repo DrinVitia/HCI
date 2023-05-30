@@ -1,74 +1,76 @@
 * {
   box-sizing: border-box;
 }
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-size: 14px;
+  padding: 0;
 }
+/* Navbar */
 .navbar {
-  background-color: #58614D;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 30px;
-  justify-content: center;
-  /* align-items: center; */
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+background-color: #58614D;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+justify-content: center;
+/* align-items: center; */
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
 }
 
 .navbar ul {
-  display: flex;
-  justify-content: center;
-  /* flex-direction: row; */
-  align-items: center;
-  /* display: inline; */
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 35%;
-  
+display: flex;
+justify-content: center;
+/* flex-direction: row; */
+align-items: center;
+/* display: inline; */
+list-style: none;
+margin: 0;
+padding: 0;
+margin-left: 35%;
+
 }
 
 .navbar li {
-  /* margin: 0 10px; */
-  padding: 0%;
+/* margin: 0 10px; */
+padding: 0%;
 }
 .navbar li a {
-    transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
 }
 .navbar li a:hover {
-    color: #D3DDD6;
+color: #D3DDD6;
 }
 .navbar a {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: 'Manrope', sans-serif;
-  font-size: 16px;
-  text-align: center;
-  padding: 0px 15px;
-  display: inline-block;
+text-decoration: none;
+color: #FFFFFF;
+font-family: 'Manrope', sans-serif;
+font-size: 18px;
+text-align: center;
+padding: 0px 15px;
+display: inline-block;
 }
 
 .navbar .logo {
-  font-family: 'Jolly Lodger', cursive;
-  font-size: 24px;
-  color: #FFFFFF;
-  padding: 0 10;
+font-family: 'Jolly Lodger', cursive;
+font-size: 34px;
+color: #FFFFFF;
+padding: 0 10;
 }
-    
-    .navbar .login-button {
-      border-radius: 40px;
-      background-color: #FFFFFF;
-      padding: 10px 40px;
-      color: #58614D;
-      font-family: 'Manrope', sans-serif;
-      text-decoration: none;
-      font-size: 16px;
-      margin-left: auto;
-    }
+
+.navbar .login-button {
+border-radius: 40px;
+background-color: #FFFFFF;
+padding: 10px 40px;
+color: #58614D;
+font-family: 'Manrope', sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin-left: auto;
+}
 
 .content_container {
   padding: 100px;
