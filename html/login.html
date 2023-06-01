@@ -103,33 +103,35 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <h2>Login</h2>
-    <form>
-      <div class="form-group">
-        <label for="username"><i class="fas fa-user"></i> Username:</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username">
-      </div>
-      <div class="form-group">
-        <label for="password"><i class="fas fa-lock"></i> Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password">
-      </div>
-      <div class="form-group remember-me">
-        <input type="checkbox" id="remember-me" name="remember-me">
-        <label for="remember-me">Keep me signed in</label>
-      </div>
-      <button type="submit" class="btn">Login</button>
-      <div class="form-footer">
-        <div class="sign-up">
-          Don't have an account? <a href="signup.html">Sign up</a>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form onsubmit="return validimiLogin()">
+        <div class="form-group">
+          <label for="username"><i class="fas fa-user"></i> Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username">
         </div>
-        <div class="social-icons">
-          <a href="https://www.google.com"><i class="fab fa-google"></i> Google</a>
-          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i> Facebook</a>
-          <a href="https://www.apple.com"><i class="fab fa-apple"></i> Apple</a>
+        <div class="form-group">
+          <label for="password"><i class="fas fa-lock"></i> Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password">
         </div>
-      </div>
-    </form>
-  </div>
-</body>
+        <div class="form-group remember-me">
+          <input type="checkbox" id="remember-me" name="remember-me">
+          <label for="remember-me">Keep me signed in</label>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="form-footer">
+          <div class="sign-up">
+            Don't have an account? <a href="signup.html">Sign up</a>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.google.com"><i class="fab fa-google"></i> Google</a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://www.apple.com"><i class="fab fa-apple"></i> Apple</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="/js/validimilogin.js"></script>
+  </body>
 </html>
