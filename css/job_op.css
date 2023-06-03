@@ -108,9 +108,15 @@ margin-left: auto;
   width: 100%;
   padding-top: 50px;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 700px;
+  max-width: 750px;
   flex-wrap: wrap;
   gap: 60px;
+}
+.language_container p{
+  font-family: "Inder";
+  font-size: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 .language {
   display: flex;
