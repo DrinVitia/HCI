@@ -117,6 +117,8 @@ margin-left: auto;
   font-size: 30px;
   text-decoration: none;
   color: #FFFFFF;
+  font-weight: 300;
+  font-style: normal;
 }
 .language {
   display: flex;
