@@ -34,19 +34,19 @@
 
 .navbar ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   /* flex-direction: row; */
   align-items: center;
   /* display: inline; */
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 25%;
+  margin-left: auto;
   
 }
 
 .navbar li {
-  /* margin: 0 10px; */
+  margin: 0 5px;
   padding: 0%;
 }
 .navbar li a {
@@ -81,7 +81,21 @@
       text-decoration: none;
       font-size: 16px;
       margin-left: auto;
+      margin-left: 0;
     }
+
+ .profile-avatar {
+  margin-right: 10px;
+  margin-left: 240px; 
+}
+
+.profile-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
     
     /* Main content */
     .container {
@@ -194,8 +208,11 @@
       <li><a href="about_us.html">About Us</a></li>
       <li><a href="contact_us.html">Contact Us</a></li>
     </ul>
+    <a href="profile.html" class="profile-avatar">
+      <img src="../images/user-2.png" alt="Profile Avatar">
+    </a>
     <a href="login.html" class="login-button">Login</a>
-  </div>
+  </div>  
 
   <div class="container">
     <img src="https://www.goethe.de/resources/files/jpg1125/sprachen-formatkey-jpg-w1920.jpg" alt="Image">

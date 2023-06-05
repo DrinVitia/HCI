@@ -23,19 +23,19 @@ z-index: 1;
 
 .navbar ul {
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 /* flex-direction: row; */
 align-items: center;
 /* display: inline; */
 list-style: none;
 margin: 0;
 padding: 0;
-margin-left: 25%;
+margin-left: auto;
 
 }
 
 .navbar li {
-/* margin: 0 10px; */
+margin: 0 5px;
 padding: 0%;
 }
 .navbar li a {
@@ -70,6 +70,19 @@ font-family: 'Manrope', sans-serif;
 text-decoration: none;
 font-size: 16px;
 margin-left: auto;
+margin-left: 0;
+}
+
+.profile-avatar {
+margin-right: 10px;
+margin-left: 240px; 
+}
+
+.profile-avatar img {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-top: 5px;
 }
 
 .bg1 {
