@@ -1,3 +1,4 @@
 [[redirects]]
-  from = "/html/homepage.html"
-  to = "/"
+  from = "/homepage.html"
+  to = "/index.html"
+  status = 200
